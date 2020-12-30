@@ -1,0 +1,41 @@
+<?php
+
+$l['expst_usercp_nav'           ] = 'Export Posts';
+$l['expst_usercp_exportposts'   ] = 'Export Posts';
+$l['expst_err_nozipsonoattachdl'] = 'Exporting of attachments is not supported because the ZipArchive class is missing.';
+$l['expst_export_posts'         ] = 'Export Posts';
+$l['expst_export_note'          ] = 'Using this tool, you can download all your forum posts, optionally stipulating their required newness or oldness, and optionally including their attachments.';
+$l['expst_date_limit'           ] = 'Date Limitation:';
+$l['expst_date_limit_disregard' ] = 'Export all posts';
+$l['expst_date_limit_older'     ] = 'Export posts older than';
+$l['expst_date_limit_newer'     ] = 'Export posts newer than';
+$l['expst_date_limit_days'      ] = 'days';
+$l['expst_attachments'          ] = 'Attachments:';
+$l['expst_include_attachs'      ] = 'Include attachments';
+$l['expst_export_format'        ] = 'Export File Format:';
+$l['expst_export_html'          ] = 'HTML File (.html)';
+$l['expst_export_txt'           ] = 'Text File (.txt)';
+$l['expst_export_csv'           ] = 'Importable MS Excel File (.csv)';
+$l['expst_export_msgs_btn'      ] = 'Export Posts';
+$l['expst_exported_date'        ] = 'Exported: {1}, {2}';
+$l['expst_posts_for'            ] = 'Posts By {1}';
+$l['expst_subject'              ] = 'Post Subject:';
+$l['expst_subject_forcss'       ] = 'Post subject';
+$l['expst_sentdatetime'         ] = 'Sent Date/Time:';
+$l['expst_sentdatetime_forcss'  ] = 'Date';
+$l['expst_attachments'          ] = 'Attachments:';
+$l['expst_attachments_forcss'   ] = 'Attachments';
+$l['expst_message_forcss'       ] = 'Message';
+$l['expst_attachment_filename'  ] = 'Filename:';
+$l['expst_attachment_size'      ] = 'Size:';
+$l['expst_breadcrumb'           ] = 'Export Posts';
+
+$l['expst_err_notloggedin'      ] = 'You are not logged in. This feature is available only to logged in members.';
+$l['expst_err_nocrt_tmpdldfile' ] = 'Unable to create the temporary download file.';
+$l['expst_err_nomsgstoexport'   ] = 'There are no conversation messages matching your criteria to export.';
+$l['expst_err_nocrt_tmpdldfile' ] = 'Unable to create the temporary download file.';
+$l['expst_err_zipopen'          ] = 'Failed to open the zip archive to add files to it for download.';
+$l['expst_err_zipaddfile'       ] = 'Failed to add "{1}" to the zip archive for download.';
+$l['expst_err_zipclose'         ] = 'Failed to close the zip archive prior to download.';
+$l['expst_err_zipbasedir'       ] = 'Failed to add the base directory to the zip archive for download.';
+$l['expst_err_nozipsonoattachdl'] = 'Exporting of attachments is not supported because the ZipArchive class is missing.';
