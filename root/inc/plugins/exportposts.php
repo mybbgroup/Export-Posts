@@ -72,15 +72,15 @@ function exportposts_info() {
 	}
 
 	$ret = array(
-		'name'          => $lang->expst_info_title               ,
-		'description'   => $desc                                 ,
-		'website'       => 'https://github.com/mybbgroup/[plugin\'s-github-name]',
-		'author'        => 'Laird, for the unofficial MyBB Group',
-		'authorsite'    => 'https://mybb.group/'                 ,
-		'version'       => '1.0.0'                               ,
-		'guid'          => ''                                    ,
-		'codename'      => 'exportposts'                         ,
-		'compatibility' => '18*'                                 ,
+		'name'          => $lang->expst_info_title                         ,
+		'description'   => $desc                                           ,
+		'website'       => 'https://mybb.group/Thread-Export-Posts'        ,
+		'author'        => 'Laird as a member of the unofficial MyBB Group',
+		'authorsite'    => 'https://mybb.group/User-Laird'                 ,
+		'version'       => '1.0.0'                                         ,
+		'guid'          => ''                                              ,
+		'codename'      => 'exportposts'                                   ,
+		'compatibility' => '18*'                                           ,
 	);
 
 	return $ret;
