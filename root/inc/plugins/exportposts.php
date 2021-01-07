@@ -7,7 +7,7 @@
  * @author MyBB Group
  * @copyright 2020 MyBB Group <http://mybb.group>
  * @link <https://github.com/mybbgroup/[plugin's-github-name]>
- * @version 1.0.0
+ * @version 1.0.1
  * @license GPL-3.0
  *
  */
@@ -77,7 +77,7 @@ function exportposts_info() {
 		'website'       => 'https://mybb.group/Thread-Export-Posts'        ,
 		'author'        => 'Laird as a member of the unofficial MyBB Group',
 		'authorsite'    => 'https://mybb.group/User-Laird'                 ,
-		'version'       => '1.0.0'                                         ,
+		'version'       => '1.0.1'                                         ,
 		'guid'          => ''                                              ,
 		'codename'      => 'exportposts'                                   ,
 		'compatibility' => '18*'                                           ,

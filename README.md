@@ -16,7 +16,7 @@ Export Posts is a plugin for [MyBB](https://mybb.com/) 1.8. It allows members to
 
 4. Install+activate the plugin via the ACP's _Plugins_ page.
 
-5. Configure the plugin in the ACP under _Settings_ -> _Plugin Settings_ -> _{Plugin Name}_
+5. Configure the plugin in the ACP under _Settings_ -> _Plugin Settings_ -> _Export Posts_
 
 ## Upgrading
 
@@ -30,7 +30,7 @@ This will maintain any settings and template changes that you've made, although 
 
 ## Support thread
 
-Yet to be created.
+https://mybb.group/Thread-Export-Posts
 
 ## Licence
 
