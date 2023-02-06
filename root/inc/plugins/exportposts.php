@@ -574,6 +574,12 @@ function expst_hookin__usercp_menu() {
 
 	$lang->load('exportposts');
 
+	if (!isset($collapsedimg['usercpexportposts'])) {
+		$collapsedimg['usercpexportposts'] = '';
+	}
+	if (!isset($collapsed['usercpexportposts_e'])) {
+		$collapsed['usercpexportposts_e'] = '';
+	}
 	eval('$usercpmenu .= "'.$templates->get('exportposts_usercp_nav').'";');
 }
 
