@@ -77,7 +77,7 @@ function exportposts_info() {
 		'website'       => 'https://mybb.group/Thread-Export-Posts'        ,
 		'author'        => 'Laird as a member of the unofficial MyBB Group',
 		'authorsite'    => 'https://mybb.group/User-Laird'                 ,
-		'version'       => '1.0.1'                                         ,
+		'version'       => '1.0.2'                                         ,
 		'guid'          => ''                                              ,
 		'codename'      => 'exportposts'                                   ,
 		'compatibility' => '18*'                                           ,
