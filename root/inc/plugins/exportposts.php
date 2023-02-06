@@ -628,7 +628,7 @@ function expst_hookin__usercp_start() {
 				$db->free_result($query);
 				break;
 			case 'csv':
-				$contenttype = 'application/octet-stream';
+				$contenttype = 'text/csv';
 				$csv_attachments_hdr = $incattach ? ",{$lang->expst_attachments_forcss}" : '';
 				break;
 			default: // 'txt'
