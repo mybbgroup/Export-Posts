@@ -4,9 +4,9 @@
  * Export Posts - a plugin for the MyBB 1.8.x forum software.
  *
  * @package MyBB Plugin
- * @author MyBB Group
+ * @author Laird as a member of the unofficial MyBB Group
  * @copyright 2020 MyBB Group <http://mybb.group>
- * @link <https://github.com/mybbgroup/[plugin's-github-name]>
+ * @link <https://github.com/mybbgroup/Export-Posts>
  * @version 1.0.1
  * @license GPL-3.0
  *
