@@ -369,9 +369,9 @@ function expst_insert_or_update_templates($from_version) {
 			'version' => '1.0.0',
 		),
 		'exportposts_export_csv_header' => array(
-			'template' => '{$lang->expst_sentdatetime_forcss},{$lang->expst_subject_forcss},{$lang->expst_message_forcss}{$csv_attachments_hdr}
+			'template' => '{$lang->expst_sentdatetime_forcss},{$lang->expst_subject_forcss},{$lang->expst_post_forcss}{$csv_attachments_hdr}
 ',
-			'version' => '1.0.0',
+			'version' => '1.0.2',
 		),
 		'exportposts_export_csv_message' => array(
 			'template' => '{$senddate},"{$subject}","{$message}"{$attachments}

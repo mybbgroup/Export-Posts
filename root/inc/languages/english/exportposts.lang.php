@@ -25,14 +25,14 @@ $l['expst_sentdatetime'         ] = 'Sent Date/Time:';
 $l['expst_sentdatetime_forcss'  ] = 'Date';
 $l['expst_attachments'          ] = 'Attachments:';
 $l['expst_attachments_forcss'   ] = 'Attachments';
-$l['expst_message_forcss'       ] = 'Message';
+$l['expst_post_forcss'          ] = 'Post';
 $l['expst_attachment_filename'  ] = 'Filename:';
 $l['expst_attachment_size'      ] = 'Size:';
 $l['expst_breadcrumb'           ] = 'Export Posts';
 
 $l['expst_err_notloggedin'      ] = 'You are not logged in. This feature is available only to logged in members.';
 $l['expst_err_nocrt_tmpdldfile' ] = 'Unable to create the temporary download file.';
-$l['expst_err_nomsgstoexport'   ] = 'There are no conversation messages matching your criteria to export.';
+$l['expst_err_nomsgstoexport'   ] = 'There are no posts matching your criteria to export.';
 $l['expst_err_nocrt_tmpdldfile' ] = 'Unable to create the temporary download file.';
 $l['expst_err_zipopen'          ] = 'Failed to open the zip archive to add files to it for download.';
 $l['expst_err_zipaddfile'       ] = 'Failed to add "{1}" to the zip archive for download.';
