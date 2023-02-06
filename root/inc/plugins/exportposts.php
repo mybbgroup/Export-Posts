@@ -806,15 +806,15 @@ function expst_hookin__usercp_start() {
 					unlink("{$basepath}/{$fname_base}.zip");
 					error($lang->expst_err_zipclose);
 				}
-				header("Content-disposition: filename={$fname_base}.zip");
-				header('Content-type: application/zip');
+				header("Content-Disposition: attachment; filename={$fname_base}.zip");
+				header('Content-Type: application/zip');
 				$fh = fopen("{$basepath}/{$fname_base}.zip", 'r');
 				fpassthru($fh);
 				fclose($fh);
 				unlink("{$basepath}/{$fname_base}.zip");
 			} else {
-				header("Content-disposition: filename=$fname");
-				header("Content-type: ".$contenttype);
+				header("Content-Disposition: attachment; filename=$fname");
+				header("Content-Type: ".$contenttype);
 				rewind($fh);
 				fpassthru($fh);
 				fclose($fh);
